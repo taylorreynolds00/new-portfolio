@@ -1,0 +1,56 @@
+/* body tag selecting the body of the html */
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background: #efeee7;
+  }
+  /* header tag selects my header tag */
+  header {
+    background: #333;
+  }
+  /* h1 tag targets my h1 tags in the html */
+  h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+  }
+  /* h2 tag targets my h2 tags in the html */
+  h2 {
+    font-size: 24px;
+  }
+  /* selects all of my a tags such as <a href=""> */
+  a {
+    color: #d21034;
+  }
+  /* the . targets a specific class  */
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  /* the # targets the id tag, or multiple id tags */
+  #student-info,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #student-info {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
